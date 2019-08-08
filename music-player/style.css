@@ -1,0 +1,21 @@
+#songs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr; 
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+article {
+    background: lightblue;
+    padding: 25px 5px 25px 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+img {
+    border-radius: 10%;
+}
